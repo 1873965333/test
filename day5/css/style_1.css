@@ -1,0 +1,50 @@
+#box{
+    border:1px solid #cccccc;
+    padding-left: 5px;
+    width: 800px;
+    margin: 0 auto;
+}
+.box2 p,
+.box3 p{
+    display: inline-block;
+}
+ .cls{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.another .cls-1{
+    margin-bottom: 20px;
+}
+.box2 div{
+    display: inline-block;
+    margin-right: 30px;
+
+}
+.another{
+    clear: both;
+}
+.box3 div{
+    float: left;
+    margin-right: 30px;
+}
+.another p{
+    margin: 0;
+}
+/*°´Å¥*/
+.btn-1 ,
+.btn-2 {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+#btn{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    background-color: lavenderblush;
+}
+.btn a{
+    width: 150px;
+    height: 35px;
+}

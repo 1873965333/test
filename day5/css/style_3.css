@@ -1,0 +1,86 @@
+
+.father{
+    width: 1000px;
+    border: 1px solid #cccccc;
+    line-height: 55px;
+    margin: 0 auto;
+}
+.st{
+    margin-left: 20px;
+    color: white;
+}
+.top{
+    height: 55px;
+    background-color: #858585;
+}
+.left{
+    height: 75px;
+    width: 75px;
+    background-color: #cccccc;
+    line-height: 75px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid #E7E7E7;
+    float: left;
+}
+.left p{
+    margin: 0;
+    padding: 0;
+}
+.cls{
+    height: 76px;
+}
+.right{
+    border-bottom: 1px solid #cccccc;
+    float: left;
+    height: 75px;
+    width: 925px;
+    position: relative;
+}
+.right p{
+    display: inline-block;
+    margin: 0 30px 0 0 ;
+    padding: 0;
+}
+.right .strong{
+    margin-right: 5px;
+}
+.right-1{
+    position: absolute;
+    top: -7px;
+    left: 7px;
+}
+ .strong{
+    font-weight: 700;
+}
+ .right .big{
+    display: block;
+     position: absolute;
+     top: -7px;
+     left: 7px;
+}
+ .right .big-2{
+     position: absolute;
+     top: 15px;
+     left: 5px;
+ }
+ .tp,
+ .bt p{
+     position: absolute;
+ }
+/*°´Å¥*/
+.btn-1 ,
+.btn-2 {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    background-color: lavenderblush;
+}
+
+
