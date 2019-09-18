@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    padding: 0;
+}
+.box{
+    width: 1550px;
+    margin: 0 auto;
+}
+/*头部开始*/
+.header{
+    height: 940px;
+    width: 1550px;
+    background: url("../images/bgc-01.png") no-repeat top center;
+    margin: 0 auto;
+}
+.rgb{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    overflow: hidden;
+}
+.tex-box{
+    width: 978px;
+    height: 575px;
+    margin: 207px auto;
+}
+.text{
+    width: 970px;
+    height: 324px;
+
+}
+.text-sp{
+    height: 273px;
+    width: 768px;
+    color: #d0d0cf;
+    margin: 0 auto;
+}
+.sp-top{
+    width: 100%;
+    height: 135px;
+    text-align: center;
+}
+.sp-bottom{
+    width: 100%;
+    text-align: center;
+}
+.text-sp p{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 23px;
+    margin-top: 20px;
+}
+.strong{
+    font-size: 62px;
+    color: #ffffff;
+    margin-top: 0;
+    display: block;
+}
+.sing{
+    width: 970px;
+    height: 250px;
+}
+.sing-content{
+    width: 770px;
+    height: 250px;
+    margin: 0 auto;
+}
+.content-top{
+    height: 147px;
+    text-align: center;
+}
+.te span{
+    line-height: 23px;
+    color: #d0d0cf;
+    font-size: 12px;
+}
+.content-bottom{
+    height: 104px;
+}
+.te .strong{
+    height: 30px;
+    font-size: 16px;
+    margin-top: 62px;
+    color: #ffffff;
+}
+.name,
+.password{
+    width: 288px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+   
+}
+.name input,
+.password input{
+    padding-left: 38px;
+    background: none;
+    border: 1px solid #655d55;
+    width: 250px;
+    height: 50px;
+    font-size: 14px;
+}
+.name input{
+    color:#ffffff ;
+}
+.password input{
+    color: #4e4d4c;
+}
+.password{
+    color: #cccccc;
+    margin: 0 30px;
+}
+.sign-text{
+    width: 125px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+.sign-text input{
+    width: 125px;
+    height: 50px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+/*头部结束*/
+/*feature开始*/
+.feature-9{
+    width: 1550px;
+    height: 712px;
+    margin: 0 auto;
+}
+.feature-main{
+    width: 1250px;
+    height: 712px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+}
+.main-top,
+.features{
+    width: 100%;
+    height: 356px;
+
+}
+.main-top{
+    text-align: center;
+    margin-top: 88px;
+}
+.main-top p{
+    margin-top: 50px;
+    line-height: 25px;
+    font-size: 42px;
+}
+.main-top span{
+    font-size: 14px;
+}
+.features{
+    margin-left: 50px;
+}
+.left,
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.features-1,
+.features-2,
+.features-3,
+.features-4{
+    height: 178px;
+}
+
+.size{
+    margin-left: 32px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.mobile-first{
+    font-size: 20px;
+}
+.all-m{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+/*feature结束*/
+/*call to action 开始*/
+.call{
+    height: 800px;
+    width: 1550px;
+    background:url("../images/bgc-02.png") no-repeat top center;
+    margin: 0 auto;
+}
+.all-content{
+    width: 1550px;
+}
+.text-m{
+    width: 825px;
+    height: 798px;
+    float: left;
+
+}
+.text-m-content{
+    height: 435px;
+    width: 515px;
+    float: right;
+    margin: 180px auto;
+
+}
+.supportive p{
+    font-size: 42px;
+    line-height: 52px;
+    color: #ffffff;
+}
+.sit{
+    margin-top: 35px;
+}
+.sit p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.action{
+    margin-top: 60px;
+}
+.btn1,
+.btn2{
+    font-size: 12px;
+    width: 240px;
+    height: 60px;
+    background: none;
+    border: 1px solid #6f756f;
+    border-radius:5px ;
+    float: left;
+}
+.btn1{
+    color: #141414;
+    background-color: #fff;
+    margin-right: 30px;
+}
+.btn2{
+    color: #ffffff;
+}
+.text-right{
+    width: 720px;
+    height: 798px;
+    float: right;
+    display: inline-block;
+}
+.ipad{
+    width: 645px;
+    height: 600px;
+    border:1px solid #9fa197 ;
+    border-radius: 50px 0 0 50px ;
+    margin:100px 0 100px 100px;
+}
+.img-frame{
+    width: 582px;
+    height: 538px;
+    border:1px solid #9fa197 ;
+    margin: 30px 0 30px 48px;
+    position: relative;
+}
+.img-frame::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 1px solid #9fa197;
+    display: inline-block;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: -24px;
+}
+/*call to action 结束*/
+/*feature开始*/
+.feature{
+    width: auto;
+    border-bottom: 1px solid #cccccc;
+}
+.feature-19{
+    width: 982px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.title p{
+    font-size: 42px;
+    text-align: center;
+    margin-top: 100px;
+}
+.logos{
+    width: 984px;
+    height: 358px;
+    margin-top: 90px;
+
+}
+.logo-public{
+    width: 284px;
+    height: 290px;
+    float: left;
+    text-align: center;
+}
+.logo-public p{
+    margin-top: 45px;
+    line-height: 26px;
+}
+.logo-2{
+    margin: 0 60px;
+}
+/*feature结束*/
+/*feature14开始*/
+.public{
+    width: 984px;
+    margin: 0 auto;
+}
+.feature-14{
+    height: 1000px;
+    border-bottom: 1px solid #cccccc;
+}
+.feature{
+    margin-top: 116px;
+}
+.feature-1,
+.feature-2{
+    width: 984px;
+    height: 500px;
+}
+.img{
+    width: 668px;
+    height: 353px;
+    float: left;
+}
+.photo .text{
+    height: 352px;
+    width: 310px;
+    float: left;
+    text-align: center;
+    margin-top: 78px;
+}
+.learn{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+ }
+.learn-2{
+    font-size: 16px;
+    line-height: 28px;
+}
+.feature-2 img{
+    float: right;
+}
+/*feature14结束*/
+/*team开始*/
+.public-4{
+    height: 1088px;
+}
+.team-4{
+    border-bottom: 1px solid #cccccc;
+}
+.public-4 .title-4{
+    width: 974px;
+    height: 278px;
+    margin: 100px auto;
+    text-align: center;
+}
+.supp{
+    font-size: 42px;
+}
+.st{
+    font-size: 18px ;
+    line-height: 28px;
+    margin-top: 35px;
+}
+.team{
+    width: 974px;
+    margin: -100px auto;
+}
+.userpic-1,
+.userpic-2 {
+    width: 100%;
+    height: 340px;
+}
+.userpic-2{
+    margin-top: 30px;
+}
+.userpic-1{
+    position: relative;
+}
+.userpic-1 img{
+    float: left;
+}
+.op-content{
+    width: 470px;
+    height: 340px;
+    float: left;
+}
+.hov{
+    height: 340px;
+    width: 469px;
+    display: inline-block;
+    background: url("../images/pic-1.png") no-repeat;
+    position: relative;
+    float: left;
+}
+ .op{
+     width: 470px;
+     height: 340px;
+     background: rgba(0,0,0,0.5);
+     position: absolute;
+     left: 0;
+     top: 0;
+     display: none;
+     cursor: pointer;
+ }
+ .hov:hover .op{
+     display: block;
+ }
+ .buttom-c{
+     width: 216px;
+     height: 144px;
+     margin: 106px auto;
+     text-align: center;
+ }
+ .buttom-c strong{
+     font-size: 20px;
+     color: #ffffff;
+ }
+ .buttom-c p{
+     font-size: 12px;
+     color: #727272;
+ }
+ .smal-logo{
+     margin-top: 36px;
+ }
+ .logo-2s{
+     margin: 0 18px;
+ }
+ .pic-public-2,
+ .pic-public-4 {
+     margin-left: 28px;
+ }
+/*team结束*/
+/*contact-1开始*/
+.contact-1{
+    height: 700px;
+    border-bottom:  1px solid #cccccc;
+}
+.contact-content{
+    width: 962px;
+    height: 700px;
+    margin: 100px auto;
+
+}
+.form{
+    width: 472px;
+    height: 560px;
+    float: left;
+    border: 1px solid #cccccc;
+}
+.form p{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.form input{
+    display: block;
+    margin: 48px;
+    width: 348px;
+    height: 50px;
+    border-radius:5px ;
+    border: 1px solid #cccccc;
+    padding-left: 20px;
+    color: #cccccc;
+
+}
+ #area{
+     margin-left: 48px;
+    width: 348px;
+    height: 124px;
+    padding: 20px 0 0 20px;
+     font-size: 14px;
+     color: #cccccc;
+}
+ .form .send-2{
+     color: #ffffff;
+     background-color:black ;
+     width: 368px;
+     padding-left: 0;
+ }
+ .cont{
+     width: 486px;
+     height: 560px;
+     float: left;
+
+ }
+.contact{
+    font-size: 42px;
+    text-align: center;
+
+}
+.make{
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.contacts{
+    width: 100%;
+    height: 150px;
+    margin: 74px 0 0 25px;
+}
+.s360,
+.phone-box,
+.mail{
+    width: 100%;
+    padding-left: 132px;
+
+}
+.s360 p{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.kin,
+.p775,
+.youn{
+    margin-left: 20px;
+    vertical-align: top;
+}
+.phone-box{
+    margin: 40px auto;
+}
+.title-6{
+    padding-left: 132px;
+}
+/*contact-1结束*/
+.footer-9{
+    width: 100%;
+    background-color: black;
+}
+.footer{
+    width: 1200px;
+    height: 410px;
+    margin: 0 auto;
+}
+.footer .public{
+    width: 300px;
+    height: 210px;
+    float: left;
+    margin-top: 86px;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 46px;
+    color: #5b5b5b;
+    margin-top: 26px;
+}
+.footer span{
+    color: #ffffff;
+}
+.menu4 .iconfont{
+    margin-right: 22px;
+    color: #5b5b5b;
+    font-size: 22px;
+}
+.foot-ico{
+    margin-top: 40px;
+}
+/*结束*/
+
