@@ -1,0 +1,65 @@
+/*第二张简历*/
+.father{
+    width: 800px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+    height: 900px;
+}
+/*左侧内容*/
+.left{
+    width: 200px;
+    background-color: #65A5FA;
+    height: 900px;
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+}
+.left h1{
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+/*右侧内容*/
+.right{
+    float:right ;
+    width: 560px;
+}
+ul,
+ol,
+li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-1 li{
+    display: inline-block;
+    margin-right: 55px;
+}
+.content-1 strong{
+    margin-right: 10px;
+}
+.content-2 li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.content-2 strong{
+    margin-right: 3px;
+}
+/*按钮*/
+.btn-1 ,
+.btn-2 {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    background-color: lavenderblush;
+}
