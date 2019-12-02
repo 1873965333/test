@@ -1,0 +1,142 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18883",
+      "name": "纸飞机",
+      "font_class": "zhifeiji",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "527307",
+      "name": "图片",
+      "font_class": "img",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "678957",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "749678",
+      "name": "添加用户",
+      "font_class": "user-create",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "928658",
+      "name": "圆圈加号",
+      "font_class": "yuanquanjiahao",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "1040005",
+      "name": "设置",
+      "font_class": "set",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "1225139",
+      "name": "火箭",
+      "font_class": "huojian",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "1305407",
+      "name": "下",
+      "font_class": "xia",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "2519594",
+      "name": "书",
+      "font_class": "shu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "2944883",
+      "name": "三角下标（正方形）",
+      "font_class": "arrRight-fill",
+      "unicode": "e51a",
+      "unicode_decimal": 58650
+    },
+    {
+      "icon_id": "4152748",
+      "name": "摄像机",
+      "font_class": "shexiangji",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "4791747",
+      "name": "游戏手柄",
+      "font_class": "youxishoubing",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "5212808",
+      "name": "叹号",
+      "font_class": "ziyuan",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
+      "icon_id": "6244733",
+      "name": "删 除",
+      "font_class": "qqq",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7326996",
+      "name": "三角下标（正方形）",
+      "font_class": "arrRight-fill-copy",
+      "unicode": "e54b",
+      "unicode_decimal": 58699
+    },
+    {
+      "icon_id": "7424757",
+      "name": "加号",
+      "font_class": "hao",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "7802657",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e528",
+      "unicode_decimal": 58664
+    },
+    {
+      "icon_id": "10063936",
+      "name": "图表",
+      "font_class": "tubiao",
+      "unicode": "e902",
+      "unicode_decimal": 59650
+    },
+    {
+      "icon_id": "10222559",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    }
+  ]
+}
