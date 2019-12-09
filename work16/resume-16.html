@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style_2.css"/>
+</head>
+<body>
+<div class="father">
+    <!--左侧侧盒子-->
+    <div class="left">
+        <h1>简历</h1>
+    </div>
+    <!--右侧盒子-->
+    <div class="right">
+        <!--五个内容信息盒子-->
+        <div class="content-1">
+            <h1>基本信息</h1>
+            <ul>
+                <li class="name">
+                    <strong>姓名</strong>
+                    张三
+                </li>
+                <li class="sex">
+                    <strong>性别</strong>
+                    男
+                </li>
+                <li class="position">
+                    <strong>应聘职位</strong>
+                    Web前端工程师
+                </li>
+            </ul>
+        </div>
+        <div class="content-2">
+            <h1>联系方式</h1>
+            <ul>
+                <li class="phone">
+                    <strong>手机</strong>
+                     <p class="P1">123****1234</p>
+                    <input type="button" value="点击显示完整号码" id="btn1"/>
+                </li>
+                <li class="Email">
+                    <strong>Email</strong>
+                    <a href="#">joinefe@baidu.com</a>
+                </li>
+                <li class="personal">
+                    <strong>个人主页</strong>
+                    <a href="#">Github</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content-3">
+            <h1>能力描述</h1>
+            <ul>
+                <li>
+                    <strong>技术能力</strong>
+                    <p>熟练掌握HTML,CSS，JavaScript</p>
+                </li>
+                <li>
+                    <strong>综合能力</strong>
+                    <p>良好的沟通，主动积极，努力勤奋</p>
+                </li>
+            </ul>
+        </div>
+        <div class="content-4">
+            <h1>教育经历</h1>
+            <ul>
+                <li>
+                    <strong>本科</strong>
+                    <p>百度前端技术学院小微学院</p>
+                </li>
+                <li>
+                    <strong>研究生</strong>
+                    <p>百度前端技术学院大斌学院</p>
+                </li>
+            </ul>
+        </div>
+        <div class="content-5">
+            <h1>项目经历</h1>
+            <ul>
+                <li>
+                    <strong>小度小度</strong>
+                    <p>作为前端工程师角色参与了ABC组件的开发</p>
+                </li>
+                <li>
+                    <strong>SAN Doc</strong>
+                    <p>作为文档工程师参与了SAN Doc的编写</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="btn-2">
+    <a href="resume-3.html" id="a2">
+        <input type="button" value="点击切换简历" class="btn"/>
+    </a>
+
+</div>
+<script>
+    //找到按钮
+    document.getElementById("btn1").onclick= function () {
+        //找到需要点击更换的内容
+        var pText=document.getElementsByClassName("P1")[0];
+        pText.innerHTML="1371231234";
+//        alert(pText.innerHTML);
+    }
+</script>
+</body>
+</html>
